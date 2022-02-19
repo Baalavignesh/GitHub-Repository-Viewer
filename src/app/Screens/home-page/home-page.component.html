@@ -1,0 +1,25 @@
+<div class="container">
+  <section>
+    <h1 class="page-title">GitHub Repository Viewer</h1>
+    <div class="input-area">
+      <input
+        class="input-style"
+        placeholder="Enter the GitHub Username"
+        (keyup)="getUsername($event)"
+      />
+      <button mat-raised-button color="primary" (click)="getUserRepository()">
+        Get Repositories
+      </button>
+    </div>
+  </section>
+  <ng-container *ngIf="loading" class="spinner">
+    <mat-spinner></mat-spinner>
+  </ng-container>
+
+  <section class="userdata-section" *ngIf="dataAvailable">
+    <app-user-info></app-user-info>
+    <app-user-repo></app-user-repo>
+  </section>
+
+
+</div>

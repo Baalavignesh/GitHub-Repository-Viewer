@@ -1,0 +1,35 @@
+.all-repos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.repo-card {
+  width: 35%;
+  padding: 24px;
+  margin: 20px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.repo-title {
+  color: rgb(90, 90, 245);
+}
+
+.repo-description {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.topics {
+  background-color: rgb(90, 90, 245);
+  color: white;
+  padding: 8px;
+  border-radius: 4px;
+  display: inline-flex;
+
+}
+
+
+.pagination-next {
+  color: red;
+}

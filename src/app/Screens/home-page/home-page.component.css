@@ -1,0 +1,48 @@
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  @media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
+.page-title {
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.input-area {
+    text-align: center;
+}
+.input-style {
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px;
+    width: 240px;
+}
+
+.get-repo-button {
+    all: unset;
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.spinner {
+    text-align: center;
+}
+
